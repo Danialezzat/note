@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Note mini Project</title>
+</head>
+<body>
+    <div class="contaner">
+        <div class="navbar">
+            <button onclick="createNewNote()">Create Note</button>
+        </div>
+        <div class="cards">
+            <div class="cardCreator">
+                <div class="btn">
+                    <button onclick="insertFun()"><i class="fa-solid fa-check"></i></button>
+                    <button  onclick="hideFun()"><i class="fa-solid fa-x"></i></button>
+                </div>
+                <div>
+                    <textarea class="text" name="" id="" placeholder="write your note..."></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="notes"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
